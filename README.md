@@ -34,7 +34,7 @@ Court Caller is a web application designed to facilitate the booking of badminto
 ## Installation and Setup
 1. Clone the repository
    ```sh
-   git clone https://github.com/your-repo/court-caller.git
+   git clone https://github.com/your-repo/court-caller.git](https://github.com/LeThanhNhan91/N6_NET1815_SWP.git
 
 2. Navigate to the project directory
    ```sh
