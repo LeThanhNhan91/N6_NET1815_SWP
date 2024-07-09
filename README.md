@@ -36,7 +36,7 @@ Court Caller is a web application designed to facilitate the booking of badminto
 |          | Trần Thành Đạt   | Login "Staff" |
 |          | Đặng Thành Ngọc   | Admin Manage Courts |
 |          | Chiêm Tấn Tài   | View Booking Schedule |
-| Sprint 2 | To be update |  To be update |
+| Sprint 2 | Lê Thành Nhân |  Update User Profile |
 
 ## Installation and Setup
 1. Clone the repository
