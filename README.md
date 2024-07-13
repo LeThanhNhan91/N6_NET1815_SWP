@@ -5,7 +5,7 @@
 Court Caller is a web application designed to facilitate the booking of badminton courts. The platform provides users with a seamless experience to register, login, and manage their court bookings. It also includes administrative features for managing users, courts, and staff, along with integrated payment options.
 
 
-![Uploading localhost_3000_fixschedule.png…]()
+![localhost_3000_fixschedule](https://github.com/user-attachments/assets/52c059e2-c274-4966-9c20-073e65db82ad)
 
 ## Major Features
 1. **Register and Login**: Allows users to create an account and access the platform.
