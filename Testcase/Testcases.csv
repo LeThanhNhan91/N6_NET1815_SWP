@@ -1,0 +1,869 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Outward issue link (Cloners),Attachment,Attachment,Attachment,Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Reason),Custom field (Request Type),Custom field (Score),Custom field (Sentiment),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Team Id,Team Name,Custom field (Test Level),Custom field (Test Steps),Custom field (Testcase Result),Custom field (Total forms),Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Comment,Parent,Parent summary,Status Category,Status Category Changed
+NC17.1 - Verify State – First character cannot have space,NNB-96,10095,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,19/May/24 11:23 AM,23/May/24 8:25 AM,20/Jul/24 2:04 PM,,,0,EDITCUSTOMER,"h1. *T17.1 - Verify State – First character cannot have space*
+
+*Step we will take…….*
+
+# Enter space as the first character
+
+*Success Is…..*
+
+An error message “First character can not have space“ must be shown",,Chiem Tan Tai (K17 HCM),,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,,NNB-6,,,,,NNB-93,19/May/24 6:40 PM;712020:a1261002-86bd-44e7-9b6b-1bbf2910186f;image-20240519-114016.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10134,,,An error message “Numbers are not allowed“ appeared,,,,,,{},,NNB-6,New Customer,,,An error message “First character can not have space“ must be shown,,,,,0|i000gv:,,,1.0,,NNB Sprint 1,,,,,,,,,Unit,Enter space as the first characte,Fail,,,,,,10005,New Customer,To Do,19/May/24 6:43 PM
+EC60.1 - Verify Customer id - First character in Customer ID cannot be space,NNB-72,10071,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,19/May/24 12:52 AM,23/May/24 8:25 AM,20/Jul/24 2:05 PM,,,0,EDITCUSTOMER,"*T60.1* Customer Id - First character cannot have space
+
+*Step we will takes…….*
+
+# Click on the customer id box
+# Enter a first character is “space“ (“ “)
+
+*Success Is…..*
+
+An error message “First character can not have space“ must be shown",,Automation for Jira,Le Thanh Nhan (K18 HCM),557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,NNB-7,,,,,NNB-46,19/May/24 12:56 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-05-19 005635.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10050,,,An error message “First character can not have space“ is not shown up,,,,,,{},,NNB-7,Edit Customer,,,An error message “First character can not have space“ must be shown,,,,,0|i000bj:,nó chưa báo lỗi hay gì mà ,,0.0,,NNB Sprint 1,,,,,,,,,Unit,"Click on the customer id box
+Enter a first character is “space“ (“ “)",Fail,,,2024-05-23 01:25:01.825,,23/May/24 8:25 AM;557058:f58131cb-b67d-43c7-b30d-6b58d40bd077;Please enter the reason for the 0 score,10006,Edit Customer,To Do,19/May/24 12:52 AM
+NC10 - Verify Address - Special characters are not allowed,NNB-68,10067,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,19/May/24 12:19 AM,23/May/24 8:24 AM,20/Jul/24 2:05 PM,,,0,NEWCUSTOMER,"*T26* Telephone Number - First character can not have space
+
+*Step we will take…….*
+
+# Click on the Customer Name field
+# Enter the number 
+# Press “Submit”
+
+*Success Is…..*
+
+An error message “*Numbers are not allowed*“ must be shown",,Chiem Tan Tai (K17 HCM),,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,,NNB-6,,,,,NNB-43,19/May/24 12:29 AM;712020:a1261002-86bd-44e7-9b6b-1bbf2910186f;170144ee-9792-4307-852d-abbb3e302621.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10046,,,Do not have anything,,,,,,{},,NNB-6,New Customer,,,An error message “Special characters are not allowed“ must be shown,,,,,0|i0009y:i,,,1.0,,NNB Sprint 1,,,,,,,,,Unit,"Click on the Address field
+
+Enter the special characters such as “@“ or “#“",Fail,,,,,,10005,New Customer,To Do,19/May/24 6:43 PM
+NC9 - Verify Address - First character can not have space,NNB-67,10066,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,19/May/24 12:19 AM,23/May/24 8:23 AM,20/Jul/24 2:05 PM,,,0,NEWCUSTOMER,"h1. *T9 - Verify Address - First character can not have space*
+
+*Step we will take…….*
+
+# Enter space as the first character
+
+*Success Is…..*
+
+An error message “First character can not have space“ must be shown",,Chiem Tan Tai (K17 HCM),,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,,NNB-6,,,,,NNB-43,19/May/24 6:33 PM;712020:a1261002-86bd-44e7-9b6b-1bbf2910186f;image-20240519-113332.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10130,,,Do not have anything,,,,,,{},,NNB-6,New Customer,,,An error message “First character can not have space“ must be shown,,,,,0|i0009y:,,,1.0,,NNB Sprint 1,,,,,,,,,Unit,Enter space as the first character,Fail,,,,,,10005,New Customer,To Do,19/May/24 6:43 PM
+NC8 - Verify Address - Address Field must not be blank,NNB-65,10064,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,19/May/24 12:18 AM,23/May/24 8:23 AM,20/Jul/24 2:05 PM,,,0,NEWCUSTOMER,"h1. *T8 - Verify Address - Address Field must not be blank*
+
+*Step we will take…….*
+
+# Click on the Address field, but do not enter anything
+# Press TAB or click out of the Address field
+
+*Success Is…..*
+
+An error message “Address must not be blank“ must be shown ",,Chiem Tan Tai (K17 HCM),,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,,NNB-6,,,,,NNB-43,19/May/24 6:31 PM;712020:a1261002-86bd-44e7-9b6b-1bbf2910186f;image-20240519-113119.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10129,,,Do not have anything,,,,,,{},,NNB-6,New Customer,,,An error message “Address must not be blank“ must be shown,,,,,0|i0009x:,"đáng lẽ tui cho 0 tại vì ông phải nhấp hết vào field mang địa chỉ như city,state nhưng như vậy là oke r",,1.0,,NNB Sprint 1,,,,,,,,,Unit,"Click on the Address field, but do not enter anything
+
+Press TAB or click out of the Address field",Fail,,,,,,10005,New Customer,To Do,19/May/24 6:43 PM
+NC7 - Customer Name - First character cannot have space,NNB-64,10063,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,19/May/24 12:18 AM,23/May/24 8:21 AM,20/Jul/24 2:05 PM,,,0,NEWCUSTOMER,"h1. *T7 - Customer Name - First character cannot have space*
+
+*Step we will take…….*
+
+# Enter space as the first character
+
+*Success Is…..*
+
+An error message “First character can not have space“ must be shown",,Automation for Jira,Chiem Tan Tai (K17 HCM),557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,NNB-6,,,,,NNB-43,19/May/24 6:29 PM;712020:a1261002-86bd-44e7-9b6b-1bbf2910186f;image-20240519-112945.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10128,,,An error message “Numbers are not allowed“ shown,,,,,,{},,NNB-6,New Customer,,,An error message “First character can not have space“ must be shown,,,,,0|i0009v:,bạn phải đánh chữ vào rồi thêm space xem coi nó mới hiện lỗi chứ,,0.0,,NNB Sprint 1,,,,,,,,,Unit,Enter space as the first character,Fail,,,2024-05-23 01:21:00.78,,23/May/24 8:21 AM;557058:f58131cb-b67d-43c7-b30d-6b58d40bd077;Please enter the reason for the 0 score,10005,New Customer,To Do,19/May/24 6:42 PM
+DC47.1 - Verify Customer id - First character in Customer ID cannot have space,NNB-46,10045,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,18/May/24 9:45 PM,23/May/24 8:20 AM,20/Jul/24 2:05 PM,,,0,DELETECUSTOMER,"*T47.1* Customer Id - First character cannot have space
+
+*Step we will takes…….*
+
+# Click on the customer id box
+# Enter a first character is “space“ (“ “)
+
+*Success Is…..*
+
+An error message “First character can not have space“ must be shown",,Automation for Jira,Le Thanh Nhan (K18 HCM),557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,NNB-11,,,NNB-72,,,NNB-45,18/May/24 9:52 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-05-18 215140.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10028,,,An error message “First character can not have space“ is not shown up,,,,,,{},,NNB-11,Delete Customer,,,An error message “First character can not have space“ must be shown,,,,,0|i0006v:,hình ảnh không phù hợp với yêu cầu testcase,,0.0,,NNB Sprint 1,,,,,,,,,Unit,"Click on the customer id box
+Enter a first character is “space“ (“ “)",Fail,,,2024-05-23 01:19:45.957,,23/May/24 8:19 AM;557058:f58131cb-b67d-43c7-b30d-6b58d40bd077;Please enter the reason for the 0 score,10010,Delete Customer,To Do,18/May/24 9:45 PM
+NC29 - Verify Email - First character can not have space,NNB-30,10029,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,18/May/24 7:35 PM,23/May/24 8:19 AM,20/Jul/24 2:05 PM,,,0,NEWCUSTOMER,"*T29 Email - First character can not have space*
+
+*Step we will takes…….*
+
+# Click on the E-mail field
+# Enter the space before entering the email in E-mail field
+# Fill in other fields
+# Press “Submit”
+
+*Success Is…..*
+
+An error message “First character can not have space“ must be shown and can not submit",,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,NNB-6,,,,,NNB-28,18/May/24 7:38 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;image-20240518-123836.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10010,18/May/24 7:39 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;image-20240518-123946.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10011,,"Do not show any error message.
+An error message “Connection failed: Access denied for user 'root'@'localhost' (using password: NO)“ appears when submiting",,,,,,{},,NNB-6,New Customer,,,An error message “First character can not have space“ must be shown and can not submit,,,,,0|i0004b:,,,1.0,,NNB Sprint 1,,,,,,,,,Unit,"Click on the E-mail field
+Enter the space before entering the email in E-mail field
+Fill in other fields
+Press “Submit”",Fail,,,,,,10005,New Customer,To Do,18/May/24 7:35 PM
+NC26 - Verify Telephone Number - First character can not have space,NNB-26,10025,Bug,Open,NNB,N6_NET1815_Badminton,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,18/May/24 6:40 PM,23/May/24 8:19 AM,20/Jul/24 2:05 PM,,,0,NEWCUSTOMER,"*T26* Telephone Number - First character can not have space
+
+*Step we will takes…….*
+
+# Click on the Telephone Number field
+# Enter the space before entering the phone number in Telephone Number field 
+# Fill in other fields
+# Press “Submit”
+
+*Success Is…..*
+
+An error message “First character can not have space“ must be shown",,Automation for Jira,Nguyen Ha Linh (K18 HCM),557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,NNB-6,,NNB-43,,,NNB-25,18/May/24 6:49 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;image-20240518-114951.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10006,,,"Do not have any error message and ""Connection failed..."" when Submit the form
+An error message “Charaters are not allowed“ is shown",,,,,,{},,NNB-6,New Customer,,,An error message “First character can not have space“ must be shown,,,,,0|i0003r:,,,1.0,,NNB Sprint 1,,,,,,,,,Unit,"Click on the Telephone Number field
+Enter the space before entering the phone number in Telephone Number field 
+Fill in other fields
+Press “Submit”",Skip,,,2024-05-23 01:18:42.746,,23/May/24 8:18 AM;557058:f58131cb-b67d-43c7-b30d-6b58d40bd077;Please enter the reason for the 0 score,10005,New Customer,To Do,19/May/24 6:10 PM
+UC11 - View Booking List - Searching Booking ID,N6NET1815-125,10261,Testcases,Open,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,17/Jul/24 12:39 PM,17/Jul/24 12:44 PM,20/Jul/24 1:58 PM,,,0,,"h4. View Booking List - Searching Booking ID
+
+Staff can view booking list and search booking Id",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,N6NET1815-124,N6NET1815-5,,,,,,17/Jul/24 12:41 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-07-17 124125.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10233,,,The booking Id that you want will be shown,,,,,,{},,N6NET1815-5,Booking Management,,,The booking Id that you want will be shown,,purple,,,0|i0017j:,,,,,Sprint 2,,,,,,,,,,"1. Go to Booking page
+2. View the booking list
+3. Choose a booking want to search",,,,,,,10141,Booking Management,To Do,17/Jul/24 12:39 PM
+SCB - 06 - Create booking by day - Transaction failed,N6NET1815-121,10257,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,16/Jul/24 10:22 PM,17/Jul/24 1:06 PM,20/Jul/24 2:05 PM,16/Jul/24 10:41 PM,,0,STAFF_CREATE_BOOKING,"*SCB - 06 - Create booking by day - Transaction failed*
+
+*Step we will takes…….*
+
+# Navigate to “By day” section
+# Select a branch
+# Select from 1 to 3 valid slots
+# Click on “Continue”
+# Enter an email belonging to an existing account
+# Click on “Check”
+# For each slots, select a court
+# Click on “Next”
+# Cancel the payment or wait until it expires
+
+*Success Is…..*
+
+An error to notify the user",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-102,,,,,N6NET1815-105,16/Jul/24 10:41 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;image-20240716-154056.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10231,,,"An error:
+Your payment was declined. Please try again or use a different payment method.",,,,,,{},,N6NET1815-5,Booking Management,,,An error to notify the user,,purple,,,0|i0016n:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Navigate to “By day” section
+2. Select branch B00002
+3. Select slot 12:00 - 13:00 on Wed 17/7
+4. Click on “Continue”
+5. Enter email ""Postman123@gmail.com""
+6. Click on ""Check""
+7. For the slot, choose court ""sân 4""
+8. Click on “Next”
+9. Cancel the payment or wait until it expires",Pass,,,,1_*:*_1_*:*_1165735_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 10:41 PM
+SCB - 05 - Create booking by day - Doesn't select court,N6NET1815-120,10256,Bug,Open,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,16/Jul/24 10:03 PM,20/Jul/24 1:30 PM,20/Jul/24 2:05 PM,,,0,STAFF_CREATE_BOOKING,"*SCB - 05 - Create booking by day - Doesn't select court*
+
+*Step we will takes…….*
+
+# Navigate to “By day” section
+# Select a branch
+# Select from 1 to 3 valid slots
+# Click on “Continue”
+# Enter an email belonging to an existing account
+# Click on “Check”
+# Click on “Next”
+# Complete payment
+
+*Success Is…..*
+
+An error to notify user",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-102,,,,,N6NET1815-105,16/Jul/24 10:07 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-16 220653.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10229,16/Jul/24 10:07 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-16 220708.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10230,,The user is redirected to payment page,,,,,,{},,N6NET1815-5,Booking Management,,,An error to notify user,,purple,,,0|i0016f:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Navigate to “By day” section
+2. Select branch B00002
+3. Select slot 12:00 - 13:00 on Tue 23/7
+4. Click on “Continue”
+5. Enter email ""Postman123@gmail.com""
+6. Click on ""Check""
+7. Click on “Next”
+8. Choose ""Thẻ nội địa và tài khoản ngân hàng"" and choose ""NCB""
+9. Input ""9704198526191432198"" on ""Số thẻ""
+10. Input ""NGUYEN VAN A"" on ""Tên chủ thẻ""
+11. Input ""07/15"" on ""Ngày phát hành""
+12. Click ""Tiếp tục"", then ""Đồng ý & Tiếp tục""
+13. Input ""123456"" on OTP,
+14. Click ""Thanh toán""",Fail,,,,,,10141,Booking Management,To Do,16/Jul/24 10:03 PM
+SCB - 04 - Create booking by day - More than 3 slots,N6NET1815-119,10255,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,16/Jul/24 9:39 PM,20/Jul/24 1:16 PM,20/Jul/24 2:05 PM,20/Jul/24 1:16 PM,,0,STAFF_CREATE_BOOKING,"*SCB - 04 - Create booking by day - More than 3 slots*
+
+*Step we will takes…….*
+
+# Navigate to “By day” section
+# Select a branch
+# Select from more than 3 valid slots
+# Click on “Continue”
+
+*Success Is…..*
+
+An error to notify the user",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-102,,,,,N6NET1815-118,16/Jul/24 9:47 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;image-20240716-144751.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10228,,,"An error:
+You can select up to 3 slots only",,,,,,{},,N6NET1815-5,Booking Management,,,An error to notify the user,,purple,,,0|i00167:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Navigate to “By day” section
+2. Select branch B00002
+3. Select slot 08:00 - 09:00, 09:00 - 10:00, 11:00 - 12:00 and 12:00 - 13:00 on Fri 19/7
+4. Click on “Continue”",Pass,,,,1_*:*_1_*:*_488519_*|*_4_*:*_1_*:*_310039743_*|*_5_*:*_2_*:*_4906403,,10141,Booking Management,Done,20/Jul/24 1:16 PM
+SCB - 03 - Create booking by day - Overlapping booking,N6NET1815-118,10254,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,16/Jul/24 8:51 PM,17/Jul/24 1:06 PM,20/Jul/24 2:05 PM,16/Jul/24 9:30 PM,,0,STAFF_CREATE_BOOKING,"*SCB - 03 - Create booking by day - Overlapping booking*
+
+*Step we will takes…….*
+
+# Navigate to “By day” section
+# Select a branch
+# Select from 1 to 3 valid slots
+# Click on “Continue”
+# Enter an email belonging to an existing account
+# Click on “Check”
+# For each slots, select a court
+
+*Success Is…..*
+
+An error to notify the user, or the overlap is not an option",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-102,,N6NET1815-119,,,N6NET1815-117,16/Jul/24 9:23 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;image-20240716-142303.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10227,,,"Court ""sân 4"" is not an option",,,,,,{},,N6NET1815-5,Booking Management,,,"An error to notify the user, or the overlap is not an option",,purple,,,0|i0015z:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Navigate to “By day” section
+2. Select branch B00002
+3. Select slot 12:00 - 13:00 on Wed 17/7
+4. Click on “Continue”
+5. Enter email ""randomEmail@gmail.com""
+6. Click on ""Check""
+7. For the slot, choose court ""sân 4""",Pass,,,,1_*:*_1_*:*_2341813_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 9:30 PM
+SCB - 02 - Create booking by day - User email doesn't exist,N6NET1815-117,10253,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,16/Jul/24 8:42 PM,17/Jul/24 1:05 PM,20/Jul/24 2:05 PM,16/Jul/24 8:47 PM,,0,STAFF_CREATE_BOOKING,"*SCB - 02 - Create booking by day - User email doesn't exist*
+
+*Step we will takes…….*
+
+# Navigate to “By day” section
+# Select a branch
+# Select from 1 to 3 valid slots
+# Click on “Continue”
+# Enter an email belonging to an existing account
+# Click on “Check”
+
+*Success Is…..*
+
+An error at the email field",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-102,,N6NET1815-118,,,N6NET1815-105,16/Jul/24 8:45 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;image-20240716-134531.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10226,,,"An error at the email field:
+User does not exist. Please register.",,,,,,{},,N6NET1815-5,Booking Management,,,"An error at the email field:
+User does not exist. Please register.",,purple,,,0|i0015r:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Navigate to “By day” section
+2. Select branch B00002
+3. Select slot 12:00 - 13:00 on Wed 17/7
+4. Click on “Continue”
+5. Enter email ""randomEmail@gmail.com""
+6. Click on ""Check""",Pass,,,,1_*:*_1_*:*_260384_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 8:47 PM
+UC05.5 - Booking Badminton Court - Verify that the cancel booking method is complete or not ,N6NET1815-116,10252,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,16/Jul/24 3:02 PM,16/Jul/24 3:08 PM,20/Jul/24 2:05 PM,16/Jul/24 3:07 PM,,0,BOOKBADMINTONCOURT,Ensure that if the cancel booking method is complete or not,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 3:07 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 15-06-49-770.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10222,,,Test case is passed,,,,,,{},,N6NET1815-5,Booking Management,,,Test case is passed,,purple,,,0|i000xy:z,,,,,,,,,,,,,,Unit,1. Testing the cancel booking method,Pass,,,,1_*:*_1_*:*_275803_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 3:07 PM
+UC05.4 - Booking Badminton Court - Verify that the reserve booking handle the invalid user,N6NET1815-115,10251,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,16/Jul/24 3:00 PM,16/Jul/24 3:19 PM,20/Jul/24 2:05 PM,16/Jul/24 3:00 PM,,0,BOOKBADMINTONCOURT,"ensure that if request (user) is not valid, return error",,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 3:02 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 15-01-44-423.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10220,,,Test case is passed,,,,,,{},,N6NET1815-5,Booking Management,,,Test case is passed,,purple,,,0|i000xy:y,,,,,,,,,,,,,,Unit,1. Testing the booking unsuccessful of reserve slot,Pass,,,,1_*:*_1_*:*_41355_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 3:00 PM
+UC05 - Customer - Book Badminton Court - Cannot choose the amount of slots (booking type flex),N6NET1815-114,10250,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,16/Jul/24 2:56 PM,20/Jul/24 1:12 PM,20/Jul/24 1:12 PM,16/Jul/24 3:06 PM,,0,BOOKBADMINTONCOURT,"Customers cannot book the amount of slots (booking type flex) if they haven’t logged in yet.
+
+*Step we will takes…….*
+
+Click “Book“ button
+
+*Success Is…..*
+
+A request login form will be shown up",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,N6NET1815-111,16/Jul/24 3:06 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Court Callers - Google Chrome 2024-07-16 15-06-07.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10221,,,A request login form will be shown up,,,,,,{},,N6NET1815-5,Booking Management,,,A request login form will be shown up,,purple,,,0|i0015j:,,,,,,,,,,,,,,,Click “Book“ button,Pass,,,,1_*:*_1_*:*_643404_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 3:06 PM
+UC05.3 - Booking Badminton Court - Verify that the slotmodel in booking api is null,N6NET1815-113,10249,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,16/Jul/24 2:55 PM,16/Jul/24 3:19 PM,16/Jul/24 3:09 PM,16/Jul/24 2:59 PM,,0,BOOKBADMINTONCOURT,"ensure that if  request (slotmodel) is null, return error",,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-5,N6NET1815-28,,,,,16/Jul/24 2:59 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 14-58-30-091.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10219,,,Test case is passed,,,,,,{},,N6NET1815-5,Booking Management,,,Test case is passed,,purple,,,0|i000xy:w,,,,,,,,,,,,,,Unit,1. Testing the booking unsuccessful of reserve slot,Pass,,,,1_*:*_1_*:*_203044_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:59 PM
+UC05.2 - Booking Badminton Court - Verify that the booking fail are notify to customer by api,N6NET1815-112,10248,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,16/Jul/24 2:52 PM,16/Jul/24 3:18 PM,16/Jul/24 3:10 PM,16/Jul/24 2:54 PM,,0,BOOKBADMINTONCOURT,"ensure that if request not correct, return error",,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 2:55 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 14-54-32-546.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10218,,,Test case is passed,,,,,,{},,N6NET1815-5,Booking Management,,,Test case is passed,,purple,,,0|i000xy:vr,,,,,,,,,,,,,,Unit,1. Testing the booking unsuccessful of reserve slot,Pass,,,,1_*:*_1_*:*_93884_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:54 PM
+UC05 - Customer - Book Badminton Court - Choose the amount of slots to book (booking type flex),N6NET1815-111,10247,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,16/Jul/24 2:43 PM,20/Jul/24 1:12 PM,20/Jul/24 1:11 PM,16/Jul/24 2:53 PM,,0,BOOKBADMINTONCOURT,"Customer can book the amount of slots (booking type flex)
+
+*Step we will takes…….*
+
+Click Number of slots box.
+
+Enter the value: 10
+
+Click “Book“ button
+
+*Success Is…..*
+
+Users will be redirected to the play time selection page.",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-28,N6NET1815-5,N6NET1815-114,,,,16/Jul/24 2:53 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Court Callers - Google Chrome 2024-07-16 14-52-57.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10217,,,Users will be redirected to the play time selection page.,,,,,,{},,N6NET1815-5,Booking Management,,,Users will be redirected to the play time selection page.,,purple,,,0|i0015b:,,,,,,,,,,,,,,,"Click Number of slots box.
+
+Enter the value: 10
+
+Click “Book“ button",Pass,,,,1_*:*_1_*:*_596301_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:53 PM
+UC05.1 - Booking Badminton Court - Verify that the booking are complete and save in the system,N6NET1815-110,10246,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,16/Jul/24 2:27 PM,16/Jul/24 3:17 PM,16/Jul/24 3:10 PM,16/Jul/24 2:48 PM,,0,BOOKBADMINTONCOURT,Ensure that the booking are complete and save in the system,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 2:52 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 14-51-32-784.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10216,,,Test case is passed,,,,,,{},,N6NET1815-5,Booking Management,,,Test case is passed,,purple,,,0|i000xy:vi,,,,,,,,,,,,,,Unit,1. Testing the booking successful of reserve slot,Pass,,,,1_*:*_1_*:*_1268539_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:48 PM
+"UC06 - Search Available Courts - Search by Name or City, District (unhappy case)",N6NET1815-109,10245,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,16/Jul/24 2:02 PM,16/Jul/24 2:41 PM,16/Jul/24 10:17 PM,16/Jul/24 2:13 PM,,0,SEARCHAVAILABELCOURT,"Customer cannot find the Court if the search value doesn't  match with Court detail
+
+*Step we will takes…….*
+
+# Select “City” box in update user profile form.
+# Input: Hà Nội
+# Click “Search”
+
+*Success Is…..*
+
+No Court will be shown.",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-21,N6NET1815-29,,,,N6NET1815-108,16/Jul/24 2:05 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;localhost_3000_ (1).png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10212,,,No Court will be shown.,,,,,,{},,N6NET1815-21,Court Management,,,No Court will be shown.,,purple,,,0|i000s4:,,,,,,,,,,,,,,,"Select “City” box in update user profile form.
+
+Input: Hà Nội
+
+Click “Search”",Pass,,,,1_*:*_1_*:*_675478_*|*_5_*:*_1_*:*_0,,10157,Court Management,Done,16/Jul/24 2:13 PM
+"UC06 - Search Available Courts - Search by Name or City, District",N6NET1815-108,10244,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,16/Jul/24 1:47 PM,16/Jul/24 2:41 PM,16/Jul/24 2:40 PM,16/Jul/24 1:58 PM,,0,SEARCHAVAILABELCOURT,"The customers, guest can search Court by Name, City, District
+
+*Step we will takes…….*
+
+# Select “City” box in update user profile form.
+# Input: Hồ Chí Minh
+# Click “Search”
+
+*Success Is…..*
+
+A list of Court which match with the search value will be shown.",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-21,N6NET1815-29,N6NET1815-109,,,,16/Jul/24 1:57 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;localhost_3000_.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10209,,,A list of Court which match with the search value will be shown.,,,,,,{},,N6NET1815-21,Court Management,,,A list of Court which match with the search value will be shown.,,purple,,,0|i000s6:,,,,,,,,,,,,,,,"Select “City” box in update user profile form.
+
+Input: Hồ Chí Minh
+
+Click “Search”",Pass,,,,1_*:*_1_*:*_643019_*|*_5_*:*_1_*:*_0,,10157,Court Management,Done,16/Jul/24 1:58 PM
+UC01.2 - Booking Badminton Court - Verify that the customers can see if they have spare slot left in Flex Booking,N6NET1815-107,10243,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,16/Jul/24 1:46 PM,16/Jul/24 3:10 PM,16/Jul/24 2:37 PM,16/Jul/24 2:48 PM,,0,BOOKBADMINTONCOURT,Verify that the spare slot left in Flex Booking if the user have it when the user navigates to the court booking section.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 1:52 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;Screenshot 2024-07-16 134938.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10207,,,Customer can see the remaining booking slots if they have booking type flex before,,,,,,{},,N6NET1815-5,Booking Management,,,Customer can see the remaining booking slots if they have booking type flex before,,purple,,,0|i000xx:,,,,,,,,,,,,,,Unit,"1. Log in to the system.
+2. Navigate to the badminton court booking section.
+3. Select a branch from the list of available branches.
+4. Choose the type ""flex"" booking.",Pass,,,,1_*:*_1_*:*_3740932_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:48 PM
+UC17 - Search User - Admin/Staff search user,N6NET1815-106,10242,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,16/Jul/24 1:23 PM,16/Jul/24 1:32 PM,20/Jul/24 2:05 PM,16/Jul/24 1:32 PM,,0,,h4. Search User - Admin/Staff search user,,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,N6NET1815-40,N6NET1815-22,,,,,,16/Jul/24 1:32 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;screencapture-localhost-3000-Users-2024-07-16-13_31_42.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10206,,,the email you want will be shown,,,,,,{},,N6NET1815-22,Administration,,,the email you want will be shown,,purple,,,0|i00153:,,,,,Sprint 1,,,,,,,,,,"1. Go to user page
+2. Fill in search text box what email you want to search",,,,,1_*:*_1_*:*_587871_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,16/Jul/24 1:32 PM
+SCB - 01 - Create booking by day - Create success,N6NET1815-105,10241,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,16/Jul/24 1:20 PM,17/Jul/24 1:05 PM,20/Jul/24 2:05 PM,16/Jul/24 8:39 PM,,0,STAFF_CREATE_BOOKING,"*SCB - 01 - Create booking by day - Create success*
+
+*Step we will takes…….*
+
+# Navigate to “By day” section
+# Select a branch
+# Select from 1 to 3 valid slots
+# Click on “Continue”
+# Enter an email belonging to an existing account
+# Click on “Check”
+# For each slots, select a court
+# Click on “Next”
+# Complete payment
+
+*Success Is…..*
+
+An order summary showing:
+
+* Slots
+* Payment date
+* Total price",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-102,,N6NET1815-117,N6NET1815-120,N6NET1815-121,,16/Jul/24 8:37 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;image-20240716-133658.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10225,,,"An order summary showing:
+Slots: 12:00:00 - 13:00:00
+Payment date: 16/07/2024
+Total price: 130USD",,,,,,{},,N6NET1815-5,Booking Management,,,"An order summary showing:
+Slots: 12:00:00 - 13:00:00
+Payment date: 16/07/2024
+Total price: 130USD",,purple,,,0|i0015n:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Navigate to “By day” section
+2. Select branch B00002
+3. Select slot 12:00 - 13:00 on Wed 17/7
+4. Click on “Continue”
+5. Enter email ""Postman123@gmail.com""
+6. Click on ""Check""
+7. For the slot, choose court ""sân 4""
+8. Click on “Next”
+9. Choose ""Thẻ nội địa và tài khoản ngân hàng"" and choose ""NCB""
+10. Input ""9704198526191432198"" on ""Số thẻ""
+11. Input ""NGUYEN VAN A"" on ""Tên chủ thẻ""
+12. Input ""07/15"" on ""Ngày phát hành""
+13. Click ""Tiếp tục"", then ""Đồng ý & Tiếp tục""
+14. Input ""123456"" on OTP,
+15. Click ""Thanh toán""",Pass,,,,1_*:*_1_*:*_26320240_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 8:39 PM
+UC02 - Login Admin- Sign up (happy case),N6NET1815-103,10239,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,16/Jul/24 12:38 PM,16/Jul/24 1:18 PM,16/Jul/24 2:24 PM,16/Jul/24 12:42 PM,,0,LOGIN,"Login Admin- Sign up
+
+*Step we will takes…….*
+
+# Fill correct email and password
+
+*Success Is…..*
+
+Login Successfully",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,,N6NET1815-25,N6NET1815-2,,,,N6NET1815-66,16/Jul/24 12:41 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-07-16 124117.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10205,16/Jul/24 12:40 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;screencapture-localhost-3000-login-2024-07-16-12_40_34.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10204,,Login Successfully,,,,,,{},,N6NET1815-2,Register and Login,,,Login Successfully,,,,,0|i000yr:,,,,,Sprint 1,,,,,,,ffe001e8-5b29-4260-83ac-d4da8be8b2d9,,Unit,Fill correct email and password,,,,,1_*:*_1_*:*_202449_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,16/Jul/24 12:42 PM
+ADB - 02 - Delete Booking,N6NET1815-100,10236,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,12/Jul/24 2:02 PM,16/Jul/24 10:28 PM,20/Jul/24 2:05 PM,12/Jul/24 2:08 PM,,0,,"Admin Delete Booking
+
+*Step we will takes…….*
+
+# Go to booking page
+# Press delete at a booking row that you want
+
+*Success Is…..*
+
+That booking row will be deleted",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,N6NET1815-39,,,,,,,12/Jul/24 2:07 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-07-12 140742.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10196,,,the booking Id row _x1Bs0zMh will be deleted,,,,,,{},,N6NET1815-22,Administration,,,the booking Id row _x1Bs0zMh will be deleted,,purple,,,0|i0014f:,,,,,Sprint 2,,,,,,,,,Unit,"Go to booking page
+
+Press delete at a booking row that you want 
+(ex: _x1Bs0zMh)",Pass,,,,1_*:*_1_*:*_353015_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,12/Jul/24 2:08 PM
+ASB - 01 -Search Booking,N6NET1815-99,10235,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,12/Jul/24 1:56 PM,16/Jul/24 10:29 PM,13/Jul/24 12:37 PM,12/Jul/24 2:02 PM,,0,,"Admin Search Booking
+
+*Step we will takes…….*
+
+# Go to booking page
+# Select search bar and enter the booking ID that you want 
+
+*Success Is…..*
+
+The booking ID with other booking information will be shown",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,N6NET1815-97,,,,,,,12/Jul/24 1:57 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-07-12 135724.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10195,,,"Go to booking page
+
+Select search bar and enter the booking ID that you want ",,,,,,{},,N6NET1815-22,Administration,,,"Go to booking page
+
+Select search bar and enter the booking ID that you want ",,purple,,,0|i00147:,,,,,Sprint 2,,,,,,,,,Unit,"Go to booking page
+
+Select search bar and enter the booking ID that you want ",Pass,,,,1_*:*_1_*:*_371223_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,12/Jul/24 2:02 PM
+UC03 - Update User Profile - User profile is updated successfully,N6NET1815-96,10232,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,10/Jul/24 10:56 AM,13/Jul/24 12:37 PM,16/Jul/24 2:46 PM,13/Jul/24 12:37 PM,,0,UPDATEUSERPROFILE,"User profile is updated successfully.
+
+*Step we will takes…….*
+
+Click Edit.
+
+Input: valid data for update:
+
++ Full Name: Le Thanh Nhan (more than 6 characters).
+
++ User Name: MrMILOTN (more than 6 characters and does not exist in the system).
+
++ Phone: 0332748325 (a number with 10 - 11 digits).
+
++ Address: duong 26, Phuoc Long A, HCM (more than 15 characters).
+
++ Year of birth: 2004 (in a valid range).
+
++ Image: whether there are pictures or not is fine.
+
+Click “Update”
+
+*Success Is…..*
+
+User profile is updated.",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-26,N6NET1815-20,,,,N6NET1815-93,13/Jul/24 12:34 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-07-10 105142.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10200,13/Jul/24 12:34 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-07-10 105212.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10199,13/Jul/24 12:34 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-07-10 105232.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10201,User profile is updated.,,,,,,{},,N6NET1815-20,User Management,,,User profile is updated.,,purple,,,0|i0013r:,,,,,,,,,,,,,,Unit,"Click Edit.
+
+Input: valid data for update:
+
++ Full Name: Le Thanh Nhan (more than 6 characters).
+
++ User Name: MrMILOTN (more than 6 characters and does not exist in the system).
+
++ Phone: 0332748325 (a number with 10 - 11 digits).
+
++ Address: duong 26, Phuoc Long A, HCM (more than 15 characters).
+
++ Year of birth: 2004 (in a valid range).
+
++ Image: whether there are pictures or not is fine.
+
+Click “Update”",Pass,,,,1_*:*_1_*:*_265252486_*|*_5_*:*_1_*:*_0,,10156,User Management,Done,13/Jul/24 12:37 PM
+UC03 - Update User Profile - Verify Year of birth - Cannot update with year of birth less than the current year minus 100 years,N6NET1815-95,10231,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,10/Jul/24 10:48 AM,10/Jul/24 10:50 AM,10/Jul/24 10:50 AM,10/Jul/24 10:50 AM,,0,UPDATEUSERPROFILE,"The users (customers) cannot update with year of birth less than the current year minus 100 years.
+
+*Step we will takes…….*
+
+# Select “Year of birth” box in update user profile form.
+# Input: 1923 
+# Click “Update”
+
+*Success Is…..*
+
+An red error message “*Invalid Year of birth!*” must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-26,N6NET1815-20,,,,N6NET1815-94,10/Jul/24 10:48 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-07-10 104517.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10185,,,An red error message “Invalid Year of birth!” must be shown,,,,,,{},,N6NET1815-20,User Management,,,An red error message “Invalid Year of birth!” must be shown,,purple,,,0|i0013j:,,,,,,,,,,,,,,Unit,"Select “Year of birth” box in update user profile form.
+
+Input: 1923
+
+Click “Update”",Pass,,,,1_*:*_1_*:*_127885_*|*_5_*:*_1_*:*_0,,10156,User Management,Done,10/Jul/24 10:50 AM
+UC03 - Update User Profile - Verify Year of birth - Cannot update with year of birth greater than the current year,N6NET1815-94,10230,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,10/Jul/24 10:40 AM,10/Jul/24 10:48 AM,16/Jul/24 1:47 PM,10/Jul/24 10:47 AM,,0,UPDATEUSERPROFILE,"The users (customers) cannot update with year of birth greater than the current year.
+
+*Step we will takes…….*
+
+# Select “Year of birth” box in update user profile form.
+# Input: 2025 
+# Click “Update”
+
+*Success Is…..*
+
+An red error message “*Year of birth must be less than current year!*” must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-26,N6NET1815-20,N6NET1815-95,,,N6NET1815-93,10/Jul/24 10:46 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-07-10 104439.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10183,,,An red error message “Year of birth must be less than current year!” must be shown,,,,,,{},,N6NET1815-20,User Management,,,An red error message “Year of birth must be less than current year!” must be shown,,purple,,,0|i0013b:,,,,,,,,,,,,,,Unit,"Select “Year of birth” box in update user profile form.
+
+Input: 2025 
+
+Click “Update”",Pass,,,,1_*:*_1_*:*_404110_*|*_5_*:*_1_*:*_0,,10156,User Management,Done,10/Jul/24 10:47 AM
+UC03 - Update User Profile - Verify User Name - Cannot update with the existing User Name,N6NET1815-93,10229,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,10/Jul/24 10:23 AM,10/Jul/24 10:56 AM,16/Jul/24 1:46 PM,10/Jul/24 10:38 AM,,0,UPDATEUSERPROFILE,"The users (customers) cannot update User Name that is already exists in the system.
+
+*Step we will takes…….*
+
+# Select “User Name” box in update user profile form.
+# Input: [milo91@gmail.com|mailto:milo91@gmail.com] (this user name is existing in the system).
+# Click “Update”
+
+*Success Is…..*
+
+An red error message “The User Name is already exist!” must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-26,N6NET1815-20,N6NET1815-94,N6NET1815-96,,,10/Jul/24 10:40 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-07-10 103019.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10182,,,An red error message “The User Name is already exist!” must be shown,,,,,,{},,N6NET1815-20,User Management,,,An red error message “The User Name is already exist!” must be shown,,purple,,,0|i00133:,,,,,,,,,,,,,,Unit,"Select “User Name” box in update user profile form.
+
+Input: milo91@gmail.com (this user name is existing in the system).
+
+Click “Update”",Pass,,,,1_*:*_1_*:*_938135_*|*_5_*:*_1_*:*_0,,10156,User Management,Done,10/Jul/24 10:38 AM
+UC04 - Booking Badminton Court - Verify that the booking details are saved in the system,N6NET1815-92,10228,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,10/Jul/24 12:25 AM,16/Jul/24 3:18 PM,16/Jul/24 2:38 PM,16/Jul/24 2:48 PM,,0,BOOKBADMINTONCOURT,Verify that the booking details are saved in the “booked” after successfully booking a badminton court.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-5,N6NET1815-28,,,,,16/Jul/24 3:15 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 14-24-12-210.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10224,,,"Booking details are saved and display in the ""booked"" page.",,,,,,{},,N6NET1815-5,Booking Management,,,"Booking details are saved and display in the ""booked"" page.",,purple,,,0|i000xy:v,,,,,,,,,,,,,,Unit,"1. Log in to the system.
+2. Navigate to the badminton court booking section.
+3. Select a branch from the list of available branches.
+4. Choose the type of the booking.
+5. Choose a time from the schedule.
+6. Click on the 'Next' button.
+7. Click on the 'Next' to go to VNPAY payment.
+8. After success the payment, go to ""booked"" page. ",Pass,,,,1_*:*_1_*:*_570157686_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:48 PM
+UC03.2 - Booking Badminton Court - Verify that the booking is confirmed if the court is available,N6NET1815-91,10227,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,10/Jul/24 12:04 AM,16/Jul/24 3:12 PM,16/Jul/24 2:38 PM,16/Jul/24 2:48 PM,,0,BOOKBADMINTONCOURT,Verify that the booking is confirmed if the selected court is available for the chosen time.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,,,,"Booking is confirmed, and continuing to VNPAY payment",,,,,,{},,N6NET1815-5,Booking Management,,,"Booking is confirmed, and continuing to VNPAY payment",,purple,,,0|i000xy:r,,,,,,,,,,,,,,Unit,"1. Log in to the system.
+2. Navigate to the badminton court booking section.
+3. Select a branch from the list of available branches.
+4. Choose the type of the booking.
+5. Choose a time from the schedule.
+6. Click on the 'Next' button.
+7. Click on the 'Next' to go to VNPAY payment",Pass,,,,1_*:*_1_*:*_571410117_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:48 PM
+UC03.1 - Booking Badminton Court - Verify that the system checks the availability of the court,N6NET1815-90,10226,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,09/Jul/24 11:56 PM,16/Jul/24 3:12 PM,20/Jul/24 2:05 PM,16/Jul/24 2:48 PM,,0,BOOKBADMINTONCOURT,Verify that the system checks the availability of the court for the selected date and time.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 2:09 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;Screenshot 2024-07-16 140845.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10213,,,Ensure the unavailable slot will be disabled,,,,,,{},,N6NET1815-5,Booking Management,,,Ensure the unavailable slot will be disabled,,purple,,,0|i000xy:i,,,,,,,,,,,,,,Unit,"1. Log in to the system.
+2. Navigate to the badminton court booking section.
+3. Select a branchfrom the list of available branches.
+4. Choose the type of the booking.
+5. Scroll to the schedule",Pass,,,,1_*:*_1_*:*_571909161_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:48 PM
+UC02 - Booking Badminton Court - Verify that the customers can choose a date,N6NET1815-89,10225,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,09/Jul/24 11:54 PM,16/Jul/24 3:12 PM,20/Jul/24 2:05 PM,16/Jul/24 2:48 PM,,0,BOOKBADMINTONCOURT,Verify that the user can choose a date for booking the selected badminton court.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 3:12 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 15-11-23-364.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10223,,,,,,,,,{},,N6NET1815-5,Booking Management,,,The selected date should be displayed to the user.,,purple,,,0|i000xy:,,,,,,,,,,,,,,Unit,"1. Log in to the system.
+2. Navigate to the badminton court booking section.
+3. Select a branch from the list of available branches.
+4. Choose the type of the booking.
+5. Choose a time from the schedule.",Pass,,,,1_*:*_1_*:*_572044120_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:48 PM
+UC01.1 - Booking Badminton Court - Verify that the user can select a branch from the list,N6NET1815-88,10224,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,09/Jul/24 11:48 PM,16/Jul/24 3:09 PM,20/Jul/24 1:56 PM,16/Jul/24 2:48 PM,,0,BOOKBADMINTONCOURT,Verify that the user can select a badminton court from the list of available courts.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-28,N6NET1815-5,,,,,16/Jul/24 1:57 PM;712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e;bandicam 2024-07-16 13-53-29-955.mp4;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10210,,,"Display types of booking and when customer choice ones, it will navigate to this infomation of selected court.",,,,,,{},,N6NET1815-5,Booking Management,,,"Display types of booking and when customer choice ones, it will navigate to this infomation of selected court.",,purple,,,0|i000xv:,,,,,,,,,,,,,,Unit,"1. Log in to the system.
+2. Navigate to the badminton court booking section.
+3. Select a branch from the list of available branches.",Pass,,,,1_*:*_1_*:*_572394299_*|*_5_*:*_1_*:*_0,,10141,Booking Management,Done,16/Jul/24 2:48 PM
+VBS - 03 - View Booking History,N6NET1815-84,10220,Testcases,Open,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,29/Jun/24 1:22 PM,17/Jul/24 12:23 PM,20/Jul/24 2:05 PM,,,0,,"As a user, I want to view my past bookings, including details such as date, time, and court, so that I can keep track of my playing history.",,Chiem Tan Tai (K17 HCM),,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,,,,,,,,,,,Not have done,,,,,,{},,N6NET1815-5,Booking Management,,,"1. Login
+User is successfully logged in and redirected to the main page.
+2. Navigate to Booking History
+User is taken to the Booking History page.
+A list of past bookings is displayed.
+3. View Past Bookings
+Each past booking shows the correct details including date, time, and court.
+Bookings are listed in reverse chronological order (most recent first).",,purple,,,0|i0011j:,,,,,,,,,,,,,,Unit,"1. Login
+Navigate to the login page.
+Enter valid username and password.
+Click on the ""Login"" button.
+2. Navigate to Booking History
+Once logged in, go to the main menu.
+Select ""Booking History"" from the options.
+3. View Past Bookings
+Observe the list of past bookings displayed.
+Check the details for each booking including date, time, and court.",Skip,,,,,,10141,Booking Management,To Do,29/Jun/24 1:22 PM
+UC02 - Login when User is Locked Out,N6NET1815-82,10218,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,High,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,29/Jun/24 12:52 AM,29/Jun/24 2:00 PM,10/Jul/24 10:23 AM,29/Jun/24 12:53 AM,,0,LOGIN,Verify the system's response when the user is locked out.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-2,N6NET1815-25,,,,,,,,"The system returns StatusCode(ObjectResult) with the message ""User is banned!""",,,,,,{},,N6NET1815-2,Register and Login,,,"The system returns StatusCode(ObjectResult) with the message ""User is banned!""",,,,,0|i0011b:,,,,,Sprint 1,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Integration,"1. Open the login page.
+2. Enter an email: lockeduser@gmail.com.
+3. Enter a password: Qwe@123.
+4. Click the ""Login"" button.",Pass,,,,1_*:*_1_*:*_28495_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,29/Jun/24 12:53 AM
+UC02 -  Login with Invalid Credentials,N6NET1815-81,10217,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,High,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,29/Jun/24 12:50 AM,29/Jun/24 1:59 PM,20/Jul/24 2:05 PM,29/Jun/24 12:52 AM,,0,LOGIN,Verify that the system fails to log in when the email does not exist.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-2,N6NET1815-25,,,,,,,,"The system returns StatusCode(StatusCodes.Status500InternalServerError) with the message ""User not found!"".",,,,,,{},,N6NET1815-2,Register and Login,,,"The system returns StatusCode(StatusCodes.Status500InternalServerError) with the message ""User not found!"".",,,,,0|i00113:,,,,,Sprint 1,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Integration,"1. Open the login page.
+2. Enter a non-existent email: wrong@example.com.
+3. Enter a password: Passwd123!.
+4. Click the ""Login"" button.",Pass,,,,1_*:*_1_*:*_175169_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,29/Jun/24 12:52 AM
+UC02 - Login with Valid Credentials,N6NET1815-80,10216,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,High,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,29/Jun/24 12:46 AM,29/Jun/24 1:59 PM,20/Jul/24 2:05 PM,29/Jun/24 12:46 AM,,0,LOGIN,Verify that the system successfully logs in with valid email and password.,,Nguyen Ha Linh (K18 HCM),,712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,,,,,,,,,,,N6NET1815-2,N6NET1815-25,,,,,,,,The system returns an 'OkObjectResult' with a JWT token,,,,,,{},,N6NET1815-2,Register and Login,,,The system returns an 'OkObjectResult' with a JWT token,,,,,0|i0010v:,,,,,Sprint 1,,,,,,,,,Integration,"1. Open the login page.
+2. Enter a valid email: user@gmail.com.
+3. Enter a valid password: Qwe@123.
+4. Click the ""Login"" button.",Pass,,,,1_*:*_1_*:*_32294_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,29/Jun/24 12:46 AM
+AEC-09-Edit court-Not an image,N6NET1815-79,10215,Bug,Open,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,28/Jun/24 9:42 PM,13/Jul/24 12:36 PM,20/Jul/24 2:05 PM,,,0,ADMIN_ADD_COURT,"*AEC-07*- Edit court-Duplicated info
+
+*Step we will takes…….*
+
+# Select “EDIT” on the court which need to be edited
+# Change the info for name or image link so that after the change, the image field isn’t an image link nor an image
+# Click “SAVE”
+
+*Success Is…..*
+
+An error “Not an image” is shown",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-86,,,,,N6NET1815-77,13/Jul/24 12:33 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;image-20240713-053348.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10198,,,Court with ID C00011 has the new image: abcxyz.docx,,,,,,{},,N6NET1815-22,Administration,,,An error “Not an image” is shown,,,,,0|i0010n:,,,,,Sprint 2,,,,,,,,,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Click ""EDIT"" on court with ID C00011
+3. Change:
+* Court Image: abcxyz.docx
+Leave anything else unchanged",Fail,,,,,,10158,Administration,To Do,28/Jun/24 9:42 PM
+AMC-08-Add court-Not an image,N6NET1815-78,10214,Bug,Open,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,28/Jun/24 9:30 PM,10/Jul/24 12:20 PM,20/Jul/24 2:05 PM,,,0,ADMIN_ADD_COURT,"*AMC-08*- Add court-Not an image
+
+*Step we will takes…….*
+
+# Navigate to the branch management
+# Select “VIEW COURT” on the branch a new court will be added
+# Click “CREATE NEW”
+# Fill the info for name or image with image field isn’t an image link nor an image
+# Click “SAVE”
+
+*Success Is…..*
+
+An error is shown",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-38,,,,,N6NET1815-68,10/Jul/24 12:19 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-10 121922.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10188,,,"A new court with these info:
+Branch ID: B001
+Court Name: Image
+Court Picture:  abcxyz.docx
+Status: Active",,,,,,{},,N6NET1815-22,Administration,,,An error is shown,,,,,0|i000z7:,,,,,Sprint 2,,,,,,,,,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Click ""CREATE NEW""
+3. Input:
+* Court Name: Image
+* Court Picture: abcxyz.docx
+* Status: Active",Fail,,,,,,10158,Administration,To Do,28/Jun/24 9:30 PM
+AEC-07-Edit court-Duplicated info,N6NET1815-77,10213,Bug,Open,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,28/Jun/24 9:13 PM,13/Jul/24 12:36 PM,20/Jul/24 2:05 PM,,,0,ADMIN_ADD_COURT,"*AEC-07*- Edit court-Duplicated info
+
+*Step we will takes…….*
+
+# Select “EDIT” on the court which need to be edited
+# Change the info for name or image link so that after the change, the info is the same as another court of that branch
+# Click “SAVE”
+
+*Success Is…..*
+
+An error “Court info duplicated” is shown",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-86,,N6NET1815-79,,,N6NET1815-68,13/Jul/24 12:31 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;image-20240713-053159.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10197,,,Court with ID C00010 has name Court New,,,,,,{},,N6NET1815-22,Administration,,,An error “Court info duplicated” is shown,,,,,0|i00107:,,,,,Sprint 2,,,,,,,,,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Click ""EDIT"" on court with ID C00010
+3. Change:
+* Court Name: Court New
+Leave anything else unchanged",Fail,,,,,,10158,Administration,To Do,28/Jun/24 9:13 PM
+AEC-06-Edit court-Edit success,N6NET1815-76,10212,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,28/Jun/24 8:35 PM,13/Jul/24 12:36 PM,10/Jul/24 10:28 AM,28/Jun/24 8:54 PM,,0,ADMIN_ADD_COURT,"*AEC-06*-Edit court-Edit success
+
+*Step we will takes…….*
+
+# Select “EDIT” on the court which need to be edited
+# Fill the info for name, image link and status
+# Click “SAVE”
+
+*Success Is…..*
+
+The court with the ID has new info",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-86,,,,,N6NET1815-67,10/Jul/24 12:24 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-10 122440.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10193,,,Court C00009 has the given info,,,,,,{},,N6NET1815-22,Administration,,,Court C00009 will have the given info,,,,,0|i000zz:,,,,,Sprint 2,,,,,,,,,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Click on ""EDIT"" for court C00009
+3. Input:
+* Court Name: Court New
+* Court Picture: new.jpg
+* Status: Active",Pass,,,,1_*:*_1_*:*_1092048_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,28/Jun/24 8:54 PM
+AEC-05-Deactivate court,N6NET1815-75,10211,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,28/Jun/24 8:16 PM,13/Jul/24 12:36 PM,20/Jul/24 1:12 PM,28/Jun/24 9:02 PM,,0,ADMIN_ADD_COURT,"*AEC-05-Deactivate court*
+
+*Step we will takes…….*
+
+# Navigate to the branch management
+# Select “VIEW COURT” on the branch a court will be deleted
+# Click “INACTIVE” on the court to be deleted
+
+*Success Is…..*
+
+The court on that row disappear",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-86,,,,,N6NET1815-70,10/Jul/24 12:26 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-10 122604.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10194,,,"Court with ID C00001 has its status as ""Inactive""",,,,,,{},,N6NET1815-22,Administration,,,"Court with ID C00001 has its status as ""Inactive""",,,,,0|i000zr:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Click on ""INACTIVE"" on C00001",Pass,,,,1_*:*_1_*:*_2761862_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,28/Jun/24 9:02 PM
+ASC-04-Search court-Court not found,N6NET1815-70,10206,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,27/Jun/24 11:46 PM,13/Jul/24 12:35 PM,20/Jul/24 2:05 PM,29/Jun/24 2:32 PM,,0,ADMIN_ADD_COURT,"*ASC-04*- Search court-Court not found
+
+*Step we will takes…….*
+
+# Navigate to the branch management
+# Select “VIEW COURT” on the branch a court will be searched
+# Enter a court ID that doesn’t exist on the search bar
+# Press Enter or click on the search icon
+
+*Success Is…..*
+
+An error message is shown",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-85,,N6NET1815-75,,,N6NET1815-69,10/Jul/24 12:22 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-10 122242.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10192,,,"An error message:
+No data available",,,,,,{},,N6NET1815-22,Administration,,,"An error message:
+No data available",,,,,0|i000zj:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Input: C00000",Pass,,,,1_*:*_1_*:*_139529375_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,29/Jun/24 2:32 PM
+ASC-03-Search court-Court found,N6NET1815-69,10205,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,27/Jun/24 10:35 PM,13/Jul/24 12:35 PM,20/Jul/24 2:05 PM,29/Jun/24 12:49 PM,,0,ADMIN_ADD_COURT,"*ASC-03*- Search court-Court found
+
+*Step we will takes…….*
+
+# Navigate to the branch management
+# Select “VIEW COURT” on the branch a court will be searched
+# Enter court ID on the search bar
+# Press Enter or click on the search icon
+
+*Success Is…..*
+
+The court with the correct ID is shown",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-85,,N6NET1815-70,,,N6NET1815-68,10/Jul/24 12:21 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-10 122148.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10191,,,A court with id C00009 is shown,,,,,,{},,N6NET1815-22,Administration,,,A court with id C00009 is shown,,,,,0|i000zb:,,,,,Sprint 2,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Input: C00009",Pass,,,,1_*:*_1_*:*_137666016_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,29/Jun/24 12:49 PM
+AMC-02-Add court-Duplicated info,N6NET1815-68,10204,Bug,Open,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,,,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,26/Jun/24 1:52 AM,10/Jul/24 12:17 PM,20/Jul/24 2:05 PM,,,0,ADMIN_ADD_COURT,"*AMC-02*- Add court-Duplicated info
+
+*Step we will takes…….*
+
+# Navigate to the branch management
+# Select “VIEW COURT” on the branch a new court will be added
+# Click “CREATE NEW”
+# Fill the info for name or image link with name duplicated with another court in the given branch
+# Click “SAVE”
+
+*Success Is…..*
+
+An error is shown",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-38,,N6NET1815-69,N6NET1815-77,N6NET1815-78,,10/Jul/24 12:17 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-10 121728.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10187,,,"A new court with these info:
+Branch ID: B001
+Court Name: 123
+Court Picture: 123.jpg
+Status: Active",,,,,,{},,N6NET1815-22,Administration,,,An error is shown,,,,,0|i000z3:,,,,,Sprint 2,,,,,,,,,Unit,"1. Click on ""VIEW COURT"" on branch B001
+2. Click ""CREATE NEW""
+3. Input:
+- Court Name: 123
+- Court Picture: 123.jpg
+- Status: Active",Fail,,,,,,10158,Administration,To Do,26/Jun/24 1:52 AM
+AMC-01-Add court-Add success,N6NET1815-67,10203,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,Dang Thanh Ngoc (K18 HCM),712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,26/Jun/24 1:50 AM,10/Jul/24 12:16 PM,20/Jul/24 2:05 PM,10/Jul/24 12:15 PM,,0,ADMIN_ADD_COURT,"*AMC-01* - Add court-Add success
+
+*Step we will takes…….*
+
+# Navigate to the branch management
+# Select “VIEW COURT” on the branch a new court will be added
+# Click “CREATE NEW”
+# Fill the info for name, image link and status
+# Click “SAVE”
+
+*Success Is…..*
+
+A new court is displayed",,Dang Thanh Ngoc (K18 HCM),,712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4,,,,,,,,,,,N6NET1815-38,,N6NET1815-76,,,,10/Jul/24 12:14 PM;712020:42bbbce0-a3fb-4d70-8feb-0f4480eb38c4;Screenshot 2024-07-10 121441.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10186,,,"A new court with these info:
+Branch ID: B001
+Court Name: 123
+Court Picture: 123.jpg
+Status: Active",,,,,,{},,N6NET1815-22,Administration,,,"A new court with these info:
+Branch ID: B001
+Court Name: 123
+Court Picture: 123.jpg
+Status: Active",,,,,0|i000yv:,,,,,Sprint 2,,,,,,,,,Unit,"1. Click on ""VIEW"" on branch B001
+2. Click ""CREATE NEW""
+3. Input:
+- Court Name: 123
+- Court Picture: 123.jpg
+- Status: Active",Fail,,,,1_*:*_2_*:*_160340508_*|*_3_*:*_1_*:*_4082_*|*_4_*:*_1_*:*_941764480_*|*_5_*:*_2_*:*_144947078,,10158,Administration,Done,10/Jul/24 12:15 PM
+UC02 - Login Staff - Sign up (happy case),N6NET1815-66,10202,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,25/Jun/24 9:43 PM,20/Jul/24 1:11 PM,20/Jul/24 1:11 PM,25/Jun/24 9:59 PM,,0,LOGIN,"Login Staff - Sign up
+
+*Step we will takes…….*
+
+# Fill correct email and password
+
+*Success Is…..*
+
+Login Successfully",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,,N6NET1815-25,N6NET1815-2,N6NET1815-103,,,N6NET1815-65,25/Jun/24 9:45 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 214527.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10153,25/Jun/24 9:59 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 215834.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10154,,Login Successfully,,,,,,{},,N6NET1815-2,Register and Login,,,Login Successfully,,,,,0|i000yn:,,,,,Sprint 1,,,,,,,ffe001e8-5b29-4260-83ac-d4da8be8b2d9,,Unit,Fill correct email and password,,,,,1_*:*_1_*:*_967480_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,25/Jun/24 9:59 PM
+UC02 - Login Staff - Validate Login,N6NET1815-65,10201,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,25/Jun/24 9:31 PM,20/Jul/24 1:11 PM,20/Jul/24 1:11 PM,25/Jun/24 9:42 PM,,0,LOGIN,"Login Staff - Validate Login
+
+*Step we will takes…….*
+
+# Check email by not filling anything and press sign in
+# Check password by not filling anything and press sign in
+
+*Success Is…..*
+
+An error pop up message “Please fill out this field“ must be shown",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,,N6NET1815-25,N6NET1815-2,N6NET1815-66,,,N6NET1815-58,25/Jun/24 9:40 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 213948.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10151,25/Jun/24 9:41 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 214024.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10152,,An error pop up message “Please fill out this field“ has been shown,,,,,,{},,N6NET1815-2,Register and Login,,,An error pop up message “Please fill out this field“ must be shown,,,,,0|i000yf:,,,,,Sprint 1,,,,,,,ffe001e8-5b29-4260-83ac-d4da8be8b2d9,,Unit,"Check email by not filling anything
+
+Check password by not filling anything",,,,,1_*:*_1_*:*_641728_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,25/Jun/24 9:42 PM
+VBS - 02 - Access Booking Schedule,N6NET1815-64,10200,Testcases,Reopened,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,25/Jun/24 4:39 PM,16/Jul/24 10:27 PM,20/Jul/24 2:05 PM,,,0,,"*VBS - 02 - Access Booking Schedule*
+
+The user wants to access their booking schedule to see both past and upcoming bookings.",,Chiem Tan Tai (K17 HCM),,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,,N6NET1815-30,,,,,,29/Jun/24 2:52 PM;712020:a1261002-86bd-44e7-9b6b-1bbf2910186f;Screenshot 2024-06-29 144611.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10181,,,"The user should be successfully logged into the system.
+The booking schedule page should load without errors.
+The booking schedule page just show upcoming bookings.",,,,,,{},,N6NET1815-5,Booking Management,,,"The user should be successfully logged into the system.
+The booking schedule page should load without errors.
+The user should see a comprehensive view of both past and upcoming bookings.",,purple,,,0|i000y7:,,,,,Sprint 2,,,,,,,,,Unit,"Navigate to the booking system's login page.
+Enter valid credentials (username and password).
+Click on the login button to access the system.
+Look for and click on the ""Booking Schedule"" link or button.",Pass,,,,,,10141,Booking Management,To Do,29/Jun/24 2:54 PM
+VBS - 01 - View Upcoming Bookings,N6NET1815-63,10199,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,Chiem Tan Tai (K17 HCM),712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,25/Jun/24 4:30 PM,16/Jul/24 10:26 PM,20/Jul/24 2:05 PM,29/Jun/24 2:55 PM,,0,,The user wants to view details of their upcoming bookings to plan their schedule.,,Chiem Tan Tai (K17 HCM),,712020:a1261002-86bd-44e7-9b6b-1bbf2910186f,,,,,,,,,,,N6NET1815-30,,,,,,29/Jun/24 2:46 PM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-29 144611.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10180,,,"The user should be successfully logged into the system.
+The booking schedule page should load without errors.
+The booking schedule page just show upcoming bookings.",,,,,,{},,N6NET1815-5,Booking Management,,,"Upcoming bookings should be listed chronologically.
+Each upcoming booking entry should include details such as date, time, duration, and any specific notes or requirements.",,purple,,,0|i000xz:,,,,,Sprint 2,,,,,,,,,Unit,"Ensure the user is logged into the booking system.
+Navigate to the booking schedule section.
+Locate the section specifically for upcoming bookings.",Pass,,,,1_*:*_1_*:*_339455724_*|*_4_*:*_1_*:*_253299_*|*_5_*:*_2_*:*_183977,,10141,Booking Management,Done,29/Jun/24 2:55 PM
+UC26 - Create Staff Account - Happy Case,N6NET1815-62,10198,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,25/Jun/24 1:25 PM,16/Jul/24 1:17 PM,20/Jul/24 2:05 PM,25/Jun/24 1:29 PM,,0,,"Register Staff Happy Case
+
+*Step we will takes…….*
+
+# Fill in all the fields
+# Click Create
+
+*Success Is…..*
+
+Click Create successfully",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,N6NET1815-40,N6NET1815-22,,,,,N6NET1815-61,25/Jun/24 1:28 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 132756.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10148,,,Click Create successfully,,,,,,{},,N6NET1815-22,Administration,,,Click Create successfully,,purple,,,0|i0014j:,,,,,Sprint 1,,,,,,,,,,"Fill in all the fields
+
+Click Create",,,,,1_*:*_1_*:*_242183_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,25/Jun/24 1:29 PM
+UC26 - Create Staff Account - Confirm Password,N6NET1815-61,10197,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,25/Jun/24 1:19 PM,16/Jul/24 1:17 PM,20/Jul/24 2:05 PM,25/Jun/24 1:24 PM,,0,,"Validation Register Staff Confirm Password
+
+*Step we will takes…….*
+
+# Click on the Create new button in admin site
+# Click on the Confirm Password box
+# Enter a password that does not match with password in Confirm Password field
+# Press Create
+
+*Success Is…..*
+
+An error message “Does not match with password“ must be shown",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,N6NET1815-40,N6NET1815-22,,N6NET1815-62,,,,25/Jun/24 1:39 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 133909.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10150,,,An error message “Does not match with password“ must be shown,,,,,,{},,N6NET1815-22,Administration,,,An error message “Does not match with password“ must be shown,,purple,,,0|i0014i:,,,,,Sprint 1,,,,,,,,,,"Click on the Create new button in admin site
+
+Click on the Confirm Password box
+
+Enter a password that does not match with password in Confirm Password field
+
+Press Create",,,,,1_*:*_1_*:*_304387_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,25/Jun/24 1:24 PM
+UC26 - Create Staff Account - Validation,N6NET1815-60,10196,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,Tran Thanh Dat (K18 HCM),712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,25/Jun/24 12:59 PM,16/Jul/24 1:16 PM,10/Jul/24 10:31 AM,25/Jun/24 1:18 PM,,0,,"Validation Register Staff Form
+
+*Step we will takes…….*
+
+# Click on the Create new button in admin site
+# Click create
+
+*Success Is…..*
+
+An error message “More than 6 characters !“ or ""Email is already existed"" must be shown at full name field 
+
+An error message “Wrong email format! ([abc@gmail.com|mailto:abc@gmail.com])“ must be shown at email field
+
+An error message “At least 6 characters include (A, a, @,...)“ must be shown at password field",,Tran Thanh Dat (K18 HCM),,712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f,,,,,,,,,,N6NET1815-40,N6NET1815-22,,,,,,25/Jun/24 1:17 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 131239.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10147,25/Jun/24 1:34 PM;712020:b56f2d24-5bd0-47a1-9c99-add67de1b70f;Screenshot 2024-06-25 133412.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10149,,"An error message “More than 6 characters !“ or ""Email is already existed"" must be shown at full name field 
+
+An error message “Wrong email format! (abc@gmail.com)“ must be shown at email field
+
+An error message “At least 6 characters include (A, a, @,...)“ must be shown at password field",,,,,,{},,N6NET1815-22,Administration,,,"An error message “More than 6 characters !“ or ""Email is already existed"" must be shown at full name field 
+
+An error message “Wrong email format! (abc@gmail.com)“ must be shown at email field
+
+An error message “At least 6 characters include (A, a, @,...)“ must be shown at password field",,purple,,,0|i0014h:,,,,,Sprint 1,,,,,,,,,,"1. Click on the Create new button in admin site
+
+2. Click create",,,,,1_*:*_1_*:*_1194435_*|*_5_*:*_1_*:*_0,,10158,Administration,Done,25/Jun/24 1:18 PM
+UC02 - Login - R07 - Verify Password- Password must not be blank,N6NET1815-59,10195,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,14/Jun/24 7:23 PM,16/Jul/24 2:24 PM,16/Jul/24 2:24 PM,15/Jun/24 9:53 AM,,0,LOGIN,"R07 - Verify Password- Password must not be blank
+
+*Step we will takes…….*
+
+# Click on the Password box
+# Do not enter any value in Password field
+# Press Sign In
+
+*Success Is…..*
+
+An error pop up message “Please fill out this field“ must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-25,,,,,N6NET1815-58,15/Jun/24 9:53 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 095306.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10146,,,An error pop up message “Please fill out this field“ has been shown,,,,,,{},,N6NET1815-2,Register and Login,,,An error pop up message “Please fill out this field“ must be shown,,,,,0|i000x3:,,,,,Sprint 1,,,,,,,ffe001e8-5b29-4260-83ac-d4da8be8b2d9,,Unit,"Click on the Password box
+
+Do not enter any value in Password field
+
+Press Sign In",,,,,1_*:*_1_*:*_52209686_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,15/Jun/24 9:53 AM
+UC02 - Login - R06 - Verify Email - Email must not be blank,N6NET1815-58,10194,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Nguyen Ha Linh (K18 HCM),712020:5b2e6ea6-163e-4747-b0a0-4ddefefc017e,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,14/Jun/24 7:23 PM,16/Jul/24 2:24 PM,16/Jul/24 2:24 PM,15/Jun/24 9:52 AM,,0,LOGIN,"R06 - Verify Email - Email must not be blank
+
+*Step we will takes…….*
+
+# Click on the Email box
+# Do not enter any value in email field
+# Press Sign In
+
+*Success Is…..*
+
+An error pop up message “Please fill out this field“ must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-25,,N6NET1815-59,N6NET1815-65,,,15/Jun/24 9:52 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 095154.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10145,,,An error pop up message “Please fill out this field“ has been shown,,,,,,{},,N6NET1815-2,Register and Login,,,An error pop up message “Please fill out this field“ must be shown,,,,,0|i000wv:,,,,,Sprint 1,,,,,,,ffe001e8-5b29-4260-83ac-d4da8be8b2d9,,System,"Click on the Email box
+
+Do not enter any value in email field
+
+Press Sign In",,,,,1_*:*_1_*:*_52167430_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,15/Jun/24 9:52 AM
+UC01 - Register - R05 - Verify Email - Cannot sign up with the existing email,N6NET1815-57,10193,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,14/Jun/24 7:16 PM,16/Jul/24 2:24 PM,16/Jul/24 2:23 PM,15/Jun/24 9:50 AM,,0,REGISTER,"R05 - Verify Email - Cannot sign up with the existing email
+
+*Step we will takes…….*
+
+# Click on the Email box
+# Enter an email “[halinh150@gmail.com|mailto:halinh150@gmail.com]“ in Email  field
+# Press Sign Up
+
+*Success Is…..*
+
+An error message “Email is already existed“ must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-24,,,,,N6NET1815-54,15/Jun/24 9:50 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 094921.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10144,,,An error message “Email is already existed“ has been shown,,,,,,{},,N6NET1815-2,Register and Login,,,An error message “Email is already existed“ must be shown,,,,,0|i000wn:,,,,,Sprint 1,,,,,,,,,Unit,"Click on the Email box
+
+Enter an email “halinh150@gmail.com“ in Email  field
+
+Press Sign Up",,,,,1_*:*_1_*:*_52437642_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,15/Jun/24 9:50 AM
+UC01 - Register - R04 - Verify Confirm Password - Confirm Password must match with Password,N6NET1815-56,10192,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,14/Jun/24 7:12 PM,16/Jul/24 2:23 PM,16/Jul/24 2:23 PM,15/Jun/24 9:48 AM,,0,REGISTER,"R04 - Verify Confirm Password - Confirm Password must match with Password
+
+*Step we will takes…….*
+
+# Click on the Confirm Password box
+# Enter a password that does not match with password in Confirm Password field
+# Press Sign Up 
+
+*Success Is…..*
+
+An error message “Does not match with password“ must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-2,N6NET1815-24,,,,N6NET1815-55,15/Jun/24 9:48 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 094740.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10143,,,An error message “Does not match with password“ has been shown,,,,,,{},,N6NET1815-2,Register and Login,,,An error message “Does not match with password“ must be shown,,,,,0|i000wf:,,,,,Sprint 1,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"Click on the Confirm Password box
+
+Enter a password that does not match with password in Confirm Password field
+
+Press Sign Up",,,,,1_*:*_1_*:*_52574669_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,15/Jun/24 9:48 AM
+"UC01 - Register - R03 - Verify Password - Password must has at least 6 characters include (A, a, @,...)",N6NET1815-55,10191,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,14/Jun/24 7:07 PM,16/Jul/24 2:23 PM,16/Jul/24 2:22 PM,15/Jun/24 9:47 AM,,0,REGISTER,"R03 - Verify Password - Password must has at least 6 characters include (A, a, @,...)
+
+*Step we will takes…….*
+
+# Click on the Password box
+# Enter a  string  “swt“ in Password field
+# Enter a  string  “Swt@“ in Password field
+# Press Sign Up each time change the input value
+
+*Success Is…..*
+
+An error message “At least 6 characters include (A, a, @,...)“ must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-2,N6NET1815-24,N6NET1815-56,,,N6NET1815-53,15/Jun/24 9:46 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 094516.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10141,15/Jun/24 9:46 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 094634.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10142,,"An error message “At least 6 characters include (A, a, @,...)“ has been shown",,,,,,{},,N6NET1815-2,Register and Login,,,"An error message “At least 6 characters include (A, a, @,...)“ must be shown",,,,,0|i000w7:,,,,,Sprint 1,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"Click on the Password box
+
+Enter a  string  “swt“ in Password field
+
+Enter a  string  “Swt@“ in Password field
+
+Press Sign Up each time change the input value",Pass,,,,1_*:*_1_*:*_52759834_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,15/Jun/24 9:47 AM
+UC01 - Register - R02 - Verify Email - Email must have the right format,N6NET1815-54,10190,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,14/Jun/24 7:06 PM,16/Jul/24 2:22 PM,16/Jul/24 2:22 PM,15/Jun/24 9:44 AM,,0,REGISTER,"*R02* - Verify Email - Email must have the right format
+
+*Step we will takes…….*
+
+# Click on the Email box
+# Enter an email “swtgmail.com“ in Email  field
+# Press Sign Up
+
+*Success Is…..*
+
+An error message “Wrong email format! (abc@gmail.com)“ must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-24,,N6NET1815-57,,,,15/Jun/24 9:43 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 094329.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10140,,,An error message “Wrong email format! (abc@gmail.com)“ has been shown,,,,,,{},,N6NET1815-2,Register and Login,,,An error message “Wrong email format! (abc@gmail.com)“ must be shown,,,,,0|i000vz:,,,,,Sprint 1,,,,,,,,,Unit,"Click on the Email box
+
+Enter an email “swtgmail.com“ in Email  field
+
+Press Sign Up",Pass,,,,1_*:*_1_*:*_52660082_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,15/Jun/24 9:44 AM
+UC01 - Register - Verify Name - Name must has more than 6 characters ,N6NET1815-53,10189,Testcases,Resolved,N6NET1815,N6_NET1815_SWP,software,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,Medium,Done,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,Le Thanh Nhan (K18 HCM),712020:8b31d960-c8c6-49ce-9816-d177c8e23822,14/Jun/24 6:58 PM,16/Jul/24 2:22 PM,20/Jul/24 1:10 PM,15/Jun/24 9:40 AM,,0,REGISTER,"*R01* - Verify Full Name - Full Name must has more than 6 characters 
+
+*Step we will takes…….*
+
+# Click on the Full Name box
+# Enter a  string of 5 characters “abcde“ in Full Name field
+# Press Sign Up
+
+*Success Is…..*
+
+An error message “More than 6 characters !“ must be shown",,Le Thanh Nhan (K18 HCM),,712020:8b31d960-c8c6-49ce-9816-d177c8e23822,,,,,,,,,,,N6NET1815-2,N6NET1815-24,N6NET1815-55,,,,15/Jun/24 9:39 AM;712020:8b31d960-c8c6-49ce-9816-d177c8e23822;Screenshot 2024-06-15 093900.png;https://lethanhnhan09012004.atlassian.net/rest/api/3/attachment/content/10139,,,An error message “More than 6 characters !“ has been shown,,,,,,{},,N6NET1815-2,Register and Login,,,An error message “More than 6 characters !“ must be shown,,,,,0|i000vr:,,,,,Sprint 1,,,,,,,93219d9b-e420-4ee3-9bd9-f675d9dbb22b,N6_NET1815,Unit,"Click on the Full Name box
+
+Enter a  string of 5 characters “abcde“ in Full Name field
+
+Press Sign Up",Pass,,,,1_*:*_1_*:*_52942511_*|*_5_*:*_1_*:*_0,,10138,Register and Login,Done,15/Jun/24 9:40 AM
