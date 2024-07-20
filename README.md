@@ -23,7 +23,7 @@ Court Caller is a web application designed to facilitate the booking of badminto
 | Sprint   | User Story                                |
 |----------|-------------------------------------------|
 | Sprint 1 | Login, Register, View Booking Schedule, Admin Manage Courts|
-| Sprint 2 | View Court Details, Book Badminton Court, Search Available Courts, Update Booking, Update User Profile|
+| Sprint 2 | View Court Details, Book Badminton Court, Search Available Courts, Update Booking, Update User Profile, Cancel Booking Schedule, Process Bookings, Admin Manage Users|
 | Sprint 3 |  Rate and Review Court, Admin Manage Users, Staff Manage User Complaints|
 | Sprint 4 | Receive Notifications, Admin View Bookings, Process Bookings, Staff Check-in Users, Staff Schedule Maintenance, Contact Support, Staff Assist User, Generate Reports, Manage Branch |
 
@@ -36,9 +36,15 @@ Court Caller is a web application designed to facilitate the booking of badminto
 |          | Trần Thành Đạt   | Login "Staff" |
 |          | Đặng Thành Ngọc   | Admin Manage Courts |
 |          | Chiêm Tấn Tài   | View Booking Schedule |
-| Sprint 2 | Lê Thành Nhân |  Update User Profile |
-|          | Nguyễn Hà Linh  | Book Badminton Court |
-|          | Trần Thành Đạt  | Admin search booking, Admin delete booking |
+
+#### Table 3: Sprint 2 Details
+| Sprint   | Member           | User Story             |
+|----------|------------------|------------------------|
+| Sprint 2 | Lê Thành Nhân | Register(Customer), Login(Customer), Search Available Courts,   |
+|          | Nguyễn Hà Linh  | Book Badminton Court(Customer), Update Booking |
+|          | Trần Thành Đạt  | Register(Staff), Login(Staff), Admin Manage Users |
+|          | Đặng Thành Ngọc  | Book Badminton Court(Staff), Process Bookings |
+|          | Chiêm Tấn Tài  |View Booking Schedule, Cancel Booking Schedule |
 
 ## Installation and Setup
 1. Clone the repository
